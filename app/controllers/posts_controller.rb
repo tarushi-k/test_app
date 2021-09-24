@@ -1,7 +1,8 @@
 class PostsController < ApplicationController
 
   def index #indexアクションの定義
-    @post = "インスタンス変数の確認"
+    @posts = Post.all #Postモデルの全てのレコードをインスタンス変数に代入。
+                        #インスタンス変数は対応するビューファイルにて使用できる。
   end
 
 end
