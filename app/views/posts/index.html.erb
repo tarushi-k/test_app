@@ -1,0 +1,12 @@
+<h1>Test App</h1>
+
+<% @posts.each do |post|%>  <%# コントローラーで取得したテーブル情報に対してeachメソッドで繰り返し処理をしている %>
+  <div class="posts">
+    <div class="posts-content">
+      <%= post.content %>    <%# コントローラーで取得したレコード情報から表示したいカラムを指定している %>
+    </div>
+    <div class="posts-created_at">
+      <%= post.created_at %>  <%# コントローラーで取得したレコード情報から表示したいカラムを指定している %>
+    </div>
+  </div>
+<% end %>
