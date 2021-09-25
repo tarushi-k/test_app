@@ -5,4 +5,7 @@ class PostsController < ApplicationController
                         #インスタンス変数は対応するビューファイルにて使用できる。
   end
 
+  def new # newアクションの定義
+  end
+  
 end
