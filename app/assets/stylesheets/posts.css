@@ -14,3 +14,31 @@
 .posts-created_at{
   font-size: 15px;
 }
+
+.sakebi{
+  font-style: italic;
+  color: gray;
+  font-size: 45px;
+  border: red solid 2px;
+  padding: 15px;
+}
+
+.mouikkaisakebu{
+  border: solid black 5px;
+  margin-top: 30px;
+  color: white;
+  font-size: 30px;
+  width: 40%;
+  padding: 15px;
+
+}
+
+.imamadenosakebi{
+  border: solid black 5px;
+  margin-top: 30px;
+  color: white;
+  font-size: 30px;
+  width: 40%;
+  padding: 15px;
+}
+
