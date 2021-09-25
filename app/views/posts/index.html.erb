@@ -1,5 +1,9 @@
 <h1>Test App</h1>
 
+<%# 投稿ページへのリンクを作成 %>
+<%= link_to "俺の気持ちを叫ぶぜ！","/top/new", method: :get %>
+
+
 <% @posts.each do |post|%>  <%# コントローラーで取得したテーブル情報に対してeachメソッドで繰り返し処理をしている %>
   <div class="posts">
     <div class="posts-content">
